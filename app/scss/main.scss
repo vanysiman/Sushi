@@ -8,7 +8,9 @@
 a {
 	text-decoration: none;
 }
-
+.invisible{
+	display: none;
+}
 body {
 	font-size: 16px;
 	min-width: 320px;
@@ -44,5 +46,40 @@ b, strong {
 	font-weight: bold;
 }
 .header{
-	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.user_menu{
+	display: flex;
+	justify-content: space-between;
+}
+.btn_burger{
+	width: 20px;
+	height: 15px;
+    margin: 20px 15px;
+    padding: 0;
+	background-image: url(../img/burger.png); 
+	background-color: white;
+	border:0px; 	
+}
+.logo{
+	margin: 5px;
+}
+.user_menu{
+	margin:18px 0px;
+}
+.user{
+	margin-right: 15px;
+}
+.cart{
+	margin-left: 15px;
+}
+.promo_slider_element1{
+	height: 240px;
+	min-width: 320px;
+	background-image: url(../img/background_sushi.png);
+}
+.promo{
+	display: flex;
 }
